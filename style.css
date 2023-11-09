@@ -17,9 +17,11 @@
 }
 
 .white-piece {
-    background-color: #fff;
+    background-image: url('assets/pieces/wp.png');
+    background-size: cover;
 }
 
 .black-piece {
-    background-color: #000;
+	background-image: url('assets/pieces/bp.png');
+    background-size: cover;
 }
