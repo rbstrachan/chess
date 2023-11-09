@@ -1,0 +1,25 @@
+/* Style the chessboard and pieces here */
+.board {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.white-piece {
+    background-color: #fff;
+}
+
+.black-piece {
+    background-color: #000;
+}
