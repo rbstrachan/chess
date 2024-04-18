@@ -53,6 +53,7 @@ board.addEventListener("click", (event) => {
             cell.dataset.captures = captures + 1;
             cell.classList.remove("white-piece");
             cell.classList.add("black-piece");
+			cell.style.backgroundImage = 'url("assets/pieces/bp.png")';
             checkGameStatus();
         }
     }
@@ -73,6 +74,7 @@ resetButton.addEventListener("click", () => {
         piece.dataset.captures = 0;
         piece.classList.remove("black-piece");
         piece.classList.add("white-piece");
+		piece.style.backgroundImage = 'url("assets/pieces/wp.png")';
     });
 
     shufflePieces();
